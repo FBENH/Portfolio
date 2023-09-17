@@ -1,0 +1,30 @@
+[       
+ {
+    "title":"Basketball statistics tracking website",
+    "smallImg":"img/statsappNarrow.png",
+    "smallImgAlt":"Shows of a website",
+    "largeImage":"img/statsappWide.png",
+    "largeImageAlt":"Shows a website for tracking Basketball statistics",
+    "projectText":"Statsapp is a comprehensive web application designed to capture, store, and display basketball statistics in real-time. This application caters to basketball enthusiasts, coaches, and analysts who want to access data on player and team performance.",
+    "challengesText":"Image Upload and Management: Managing the process of uploading and organizing player and team images into Blob Storage can be complex, particularly if there are a large number of images to handle.",
+    "technologies":["Angular",".Net","C#","EF Core","SQL","JWT", "Azure BlobStorage"],
+    "gitHub":["https://github.com/FBENH/StatsAppFront", "https://github.com/FBENH/ApiStatsApp"],
+    "link":"https://statsapp-c39a8.web.app/",
+    "testUser":"testing",
+    "testPassword":"testing"
+ },
+ {
+    "title":"Suggestions app",
+    "smallImg":"img/appsugerenciasNarrow.png",
+    "smallImgAlt":"Shows of a website for making suggestions",
+    "largeImage":"img/appsugerenciasWide.png",
+    "largeImageAlt":"Shows a suggestions website",
+    "projectText":"This is a straightforward web application designed to facilitate user-generated ideas and suggestions. Users can submit their suggestions, which are then reviewed by administrators. The suggestions can also be voted on by the community to gauge popularity.",
+    "challengesText":"Developing the app in Blazor and integrating MongoDB presented a set of intriguing challenges, especially considering my learning curve with both technologies. ",
+    "technologies":["C#","Blazor","MongoDB","Azure AD b2c"],
+    "gitHub":["https://github.com/FBENH/fbAppSugerenciasDemo"],
+    "link":"https://fbappsugerenciasdemo.azurewebsites.net",
+    "testUser":"testeoAppSugerencias@outlook.com",
+    "testPassword":"AppSugerencias1"
+ }
+]

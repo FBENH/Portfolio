@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap');
+
+html{
+    font-family: 'Quicksand',sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    word-wrap: break-word;
+}
+
+body{    
+    max-width: 1440px;    
+    margin: auto;
+    background-color: rgba(0,0,0,0.034);
+}
+
+main{
+    background-color: #fff;
+}
+img{
+    max-height: 100vh;
+}
+
+h1{
+    font-weight: 700;
+    color: #fff;
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-align: right; 
+    text-shadow: -1px 1px 20px #000000;
+}
+
+
+h2{
+    font-weight: 700;
+    color: #000;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+nav ul{
+    margin: 0;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 0.5rem;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+p{
+    line-height: 1.5rem;
+}
+form{
+    padding: 0 15%;
+    display: grid;
+    grid-template-columns: auto;
+}
+form > div{
+    display: flex;
+    justify-content: center;
+}
+input, textarea{
+    font-size: 1rem;
+}
+button{
+    font-size: 0.75rem;
+    padding: 0.25rem 5%;
+    margin: 0.25rem;
+}
+header{
+    background-color: #000;
+    color: #fff;
+    font-size: 0.67rem;
+    text-align: right;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+footer{
+    background-color: #000;
+    color: #fff;
+    font-size: 0.67rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.hero{
+    position: relative;
+}
+.hero img{
+    width: 100%;    
+}
+.hero h1{
+    position: absolute;
+    bottom: 0;
+    right: 1rem;
+}
+#contact-me h2{
+    margin: 0;
+    text-align: center;    
+}
+#portfolio-section{
+    position: relative;
+}
+#portfolio-section img{
+    width: 100%;
+}
+#portfolio-section > div{
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+}
+#portfolio-section > div > h2{
+    color: #fff;
+    margin: 0;
+}
+#portfolio-section > div > a{
+    color: #d8b33c;
+    font-size: 2rem;
+    margin: 0;
+}
+#my-story{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+#my-story h2{
+    margin: 1rem 0;
+
+}
+#portfolio-main{
+    margin: 0.05rem 0;
+}
+.highlight{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #000;
+}
+.highlight h2{
+    color: #fff;
+}
+.highlight a{
+    color: #d8b33c;
+    font-size: 2rem;
+}
+.highlight.invert{
+    flex-direction: row-reverse;
+}
+.highlight > div{
+    flex-grow: 1;
+}
+
+.highlight > img{
+    width: 50%;
+}
+#work-item-header{
+    margin: 0;
+    text-align: center;
+}
+#work-item-image{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.work-item-text{
+    padding: 0.3rem 15%;
+}
+.work-item-text h3{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.work-item-text p,
+.work-item-text ul{
+    margin-top: 0;
+}
+
+#see-live span{
+    font-weight: bold;
+    display: block;  
+}
+#see-live small{
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 600px){
+    html{
+        font-size: 16px;        
+    }
+    h1{
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    #portfolio-section > div > a{
+        font-size: 1rem;
+    }
+    .highlight a{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width:767px){
+    html{
+        font-size: 24px;        
+    }
+    h1{
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    #portfolio-section > div > a{
+        font-size: 1rem;
+    }
+    .highlight a{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (min-width: 768px) and (max-width:991px){
+    html{
+        font-size: 24px;        
+    }
+    h1{
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    #portfolio-section > div > a{
+        font-size: 1.5rem;
+    }
+    .highlight a{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (min-width: 992px) and (max-width:1199px){
+    html{
+        font-size: 24px;        
+    }
+    h1{
+        font-size: 4rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    #portfolio-section > div > a{
+        font-size: 2rem;
+    }
+    .highlight a{
+        font-size: 2rem;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1440px){
+ 
+}
+
+@media print {
+    *,
+    *::before,
+    *::after{
+        background: #fff !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;        
+    }
+    @page{
+        margin: 1in;
+        size: letter portrait;
+    }
+
+    html{
+        font-size: 16px;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    a{
+        text-decoration: none;
+    }
+    a[href]::after{
+        content: " (" attr(href) ")";
+    }
+
+    header,footer{
+        display: none;
+    }    
+}
+
