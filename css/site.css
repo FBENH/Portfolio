@@ -18,6 +18,7 @@ main{
 }
 img{
     max-height: 100vh;
+    width: auto;
 }
 
 h1{
@@ -88,9 +89,10 @@ footer{
 }
 .hero{
     position: relative;
+    background-color: #000;
 }
 .hero img{
-    width: 100%;    
+    max-width: 100%;    
 }
 .hero h1{
     position: absolute;
