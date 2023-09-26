@@ -100,13 +100,13 @@
         challengesText.innerText = app.selectedItem.challengesText;
 
         const span = document.createElement('span');
-        span.innerHTML = `Link: <a href="${app.selectedItem.link}">${app.selectedItem.link}<a /><br>`
+        span.innerHTML = `Link: <a target="_blanc" href="${app.selectedItem.link}">${app.selectedItem.link}<a /><br>`
         const div = document.getElementById('see-live');
         div.appendChild(span);
 
         app.selectedItem.gitHub.forEach(el=>{
             const span = document.createElement('span');
-            span.innerHTML = `GitHub Repository: <a href="${el}">${el}<a /><br>`;            
+            span.innerHTML = `GitHub Repository: <a target="_blanc" href="${el}">${el}<a /><br>`;            
             div.appendChild(span);
         });
 
